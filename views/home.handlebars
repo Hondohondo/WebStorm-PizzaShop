@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza Shop {{title}}</title>
+
+  <link rel="stylesheet" href="../public/css/site.css" type="text/css">
+</head>
+<body ng-app="pizzaApp">
+
+<div>
+  <h1>Pete's Pizza Shop</h1>
+<!--  <p>The best pizza voted in <strong>Halfe, London</strong></p>-->
+</div>
+
+<div class="menu" id="mainMenu">
+  <ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Contact</li>
+  </ul>
+</div>
+
+<div>Message: {{message}}</div>
+
+<label for="delivery"><input type="checkbox" name="delivery" id="delivery"></label>
+
+<div>
+  <input type="submit" value="order now!">
+</div>
+
+<div ng-controller="orderController as order">fffs</div>
+
+<footer>
+  Footer
+</footer>
+
+
+<script src="public/jsndex.js" type="text/javascript"></script>
+<script src="../node_modules/angular/angular.min.js"></script>
+<script src="../public/js/app.js"></script>
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.js"></script>-->
+
+</body>
+</html>
